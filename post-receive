@@ -1,6 +1,7 @@
-!#/bin/sh
+#!/bin/sh
 unset GIT_DIR
 rm -rf ~/finalproj/files
 exec git clone ~/finalproj ~/finalproj/files
 rm -rf ~/finalproj/files/.git
-
+sudo pkill python
+nohup sudo python -m SimpleHTTPServer 80 &
