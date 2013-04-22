@@ -1,0 +1,6 @@
+1. /proc/version Linux version 3.5.0-17-generic (buildd@roseapple) (gcc version 4.7.2 (Ubuntu/Linaro 4.7.2-2ubuntu1) ) #28-Ubuntu SMP Tue Oct 9 19:32:08 UTC 2012
+2. /proc/filesystems Yes, it supports ext3 filesystems (doesn't say nodev next to ext3).
+3. /proc/swaps 522236
+4. In eniac, /proc/6091/cmdline. sshd: zhangwi@pts/14
+5. After running firefox on command line, /proc/2201/cmdline. /usr/lib/firefox/firefox 
+6. /proc/cpuinfo 2454.290 MHz
